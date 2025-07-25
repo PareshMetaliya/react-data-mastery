@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+}
+
+
+
+  .heading {
+    @apply text-3xl font-bold text-violet-700 tracking-wide;
+  }
